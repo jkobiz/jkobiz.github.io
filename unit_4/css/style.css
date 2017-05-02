@@ -1,15 +1,27 @@
 @font-face {
-	font-family:someName;
-	src:url(filepath);
+	font-family: Foco;
+	src:url(".../fonts/Foco/focolight.ttf");
+}
+
+@font-face {
+	font-family: ClarendonLight;
+	src:url(".../fonts/Clarendon/clarendonbtlight.ttf");
 	/*http://www.font-face.com/#green_content*/
 }
+
+@font-face {
+	font-family: ClarendonHeavy;
+	src:url(".../fonts/Clarendon/clarendonbtheavy.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
 }
 body {
-	font-family: 'Foco Light', sans-serif;
+	font-family: 'Foco', cursive;
 	font-size: 16px; /*1em = 16px*/
 	color: #414042;
 }
@@ -19,7 +31,7 @@ header{
 
 nav {
 	color: #FFFFFF;
-	font-family: Clarendon, serif;
+	font-family: 'ClarendonHeavy', cursive;
 	letter-spacing: .5px;
 }
 p{
@@ -29,7 +41,7 @@ p{
 
 h1 {
 	color: #FFFFFF;
-	font-family: 'Clarendon Light', serif;
+	font-family: 'ClarendonLight', cursive;
 	font-size: 1.75em;
 	text-align: center;
 }
@@ -37,7 +49,7 @@ h1 {
 h2 {
 	color: #FFFFFF;
 	background-color: #13ACB8;
-	font-family: 'Clarendon Light', serif;
+	font-family: 'ClarendonLight', cursive;
 	font-size: 1.75em;
 	letter-spacing: .5px;
 }
@@ -55,7 +67,7 @@ nav a {
 	text-decoration: none;
 	color: #13ACB8;
 	/*background-color: #0079FF;*/
-	font-family: 'Clarendon Light', serif;
+	font-family: 'ClarendonLight', cursive;
 }
 
 ul {
