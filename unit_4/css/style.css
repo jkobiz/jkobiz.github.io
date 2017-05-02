@@ -87,6 +87,18 @@ hr{
 	width: 65em;
 	margin: 1em auto;
 }
+
+.cta {
+	text-decoration: none;
+	font-family: Foco, comicsans;
+	color: #FFFFFF;
+	background-color: #0079FF;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 20px;
+
+}
+
 #intro {
 	background-image: url("../images/loftbuilding.jpg");
 	background-size: cover;
@@ -99,12 +111,12 @@ hr{
 }
 
 #work {
-	background-image: url("../images/thework_wall.jpg");
+	/*background-image: url("../images/thework_wall.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
-	/*color: #0079FF;*/
+	color: #0079FF;
 	height: 650px;
-}
+}*/
 
 #process {
 	background-image: url("../images/fordtruck.jpg");
