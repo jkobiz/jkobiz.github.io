@@ -61,8 +61,8 @@ h4{
 
 a {
 	text-decoration: none;
-	color: #FFFFFF;
-	background-color: #0079FF;
+	color: #13ACB8;
+	/*background-color: #0079FF;*/
 	font-family: 'Clarendon Light', serif;
 }
 
@@ -99,7 +99,8 @@ hr{
 #work {
 	background-image: url("../images/thework_wall.jpg");
 	background-repeat: no-repeat;
-	height: 650px;
+	/*color: #0079FF;
+*/	height: 650px;
 }
 
 #process {
