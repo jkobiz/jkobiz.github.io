@@ -1,17 +1,17 @@
 @font-face {
 	font-family: Foco;
-	src:url(".../fonts/Foco/focolight.ttf");
+	src:url("../fonts/Foco/focolight.ttf");
 }
 
 @font-face {
 	font-family: ClarendonLight;
-	src:url(".../fonts/Clarendon/clarendonbtlight.ttf");
+	src:url("../fonts/Clarendon/clarendonbtlight.ttf");
 	/*http://www.font-face.com/#green_content*/
 }
 
 @font-face {
 	font-family: ClarendonHeavy;
-	src:url(".../fonts/Clarendon/clarendonbtheavy.ttf");
+	src:url("../fonts/Clarendon/clarendonbtheavy.ttf");
 	/*http://www.font-face.com/#green_content*/
 }
 
@@ -25,8 +25,9 @@ body {
 	font-size: 16px; /*1em = 16px*/
 	color: #414042;
 }
-header{
 
+img {
+	width: 300px;
 }
 
 nav {
@@ -34,6 +35,7 @@ nav {
 	font-family: ClarendonHeavy, comicsans;
 	letter-spacing: .5px;
 }
+
 p{
 	text-align: center;
 	padding:10px;
