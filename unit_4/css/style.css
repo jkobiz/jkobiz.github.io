@@ -1,12 +1,18 @@
-@import url(".../fonts/Foco");
-@import url(".../fonts/Clarendon");
-
+@font-face {
+	font-family:someName;
+	src:url(filepath);
+	/*http://www.font-face.com/#green_content*/
+}
 *{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
 }
-
+body {
+	font-family: 'Foco Light', sans-serif;
+	font-size: 16px; /*1em = 16px*/
+	color: #414042;
+}
 header{
 
 }
@@ -14,18 +20,9 @@ header{
 nav {
 	color: #FFFFFF;
 	font-family: Clarendon, serif;
-	font-size: 1em;
 	letter-spacing: .5px;
 }
-
-body {
-	font-family: 'Foco Light', sans-serif;
-	font-size: 16px; /*1em = 16px*/
-	color: #414042;
-}
-
-p	{
-	color: #414042;
+p{
 	text-align: center;
 	padding:10px;
 }	
@@ -35,7 +32,6 @@ h1 {
 	font-family: 'Clarendon Light', serif;
 	font-size: 1.75em;
 	text-align: center;
-	width: 10em
 }
 
 h2 {
@@ -47,19 +43,15 @@ h2 {
 }
 
 h3 {
-	color: #414042;
-	font-family: 'Foco Light', sans-serif;
 	font-size: 1.5em;
 }
  
 h4{
-	color: #414042;
-	font-family: 'Foco Light', sans-serif;
 	font-size: 1.25em;
 	text-transform: uppercase;
 }
 
-a {
+nav a {
 	text-decoration: none;
 	color: #13ACB8;
 	/*background-color: #0079FF;*/
@@ -78,20 +70,18 @@ li {
 
 hr{
 	border:none;
-	height:.75px;
+	height:1px;
 	background-color: #13ACB8;
 	width: 65em;
 	margin: 1em auto;
 }
-
 #intro {
 	background-image: url("../images/loftbuilding.jpg");
-	/*background-size: cover;*/
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 650px;
 	letter-spacing: .5px;
 }
-
 #capabilities {
 	text-align: center;
 }
@@ -99,13 +89,15 @@ hr{
 #work {
 	background-image: url("../images/thework_wall.jpg");
 	background-repeat: no-repeat;
-	/*color: #0079FF;
-*/	height: 650px;
+	background-size:cover;
+	/*color: #0079FF;*/
+	height: 650px;
 }
 
 #process {
 	background-image: url("../images/fordtruck.jpg");
 	background-repeat: no-repeat;
+	background-size:cover;
 	height: 375px;
 	text-align: center;
 }
@@ -113,6 +105,7 @@ hr{
 #contact {
 	background-image: url("../images/eaglemural.jpg");
 	background-repeat: no-repeat;
+	background-size:cover;
 	height: 600px;
 }
 
