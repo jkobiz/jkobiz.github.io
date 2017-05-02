@@ -1,5 +1,5 @@
 @font-face {
-	font-family: Foco;
+	font-family: Fco;
 	src:url(".../fonts/Foco/focolight.ttf");
 }
 
@@ -21,7 +21,7 @@
 	box-sizing:border-box;
 }
 body {
-	font-family: 'Foco', cursive;
+	font-family: Foco, comicsans;
 	font-size: 16px; /*1em = 16px*/
 	color: #414042;
 }
@@ -31,7 +31,7 @@ header{
 
 nav {
 	color: #FFFFFF;
-	font-family: 'ClarendonHeavy', cursive;
+	font-family: ClarendonHeavy, comicsans;
 	letter-spacing: .5px;
 }
 p{
@@ -41,7 +41,7 @@ p{
 
 h1 {
 	color: #FFFFFF;
-	font-family: 'ClarendonLight', cursive;
+	font-family: ClarendonLight, comicsans;
 	font-size: 1.75em;
 	text-align: center;
 }
@@ -49,7 +49,7 @@ h1 {
 h2 {
 	color: #FFFFFF;
 	background-color: #13ACB8;
-	font-family: 'ClarendonLight', cursive;
+	font-family: ClarendonLight, comicsans;
 	font-size: 1.75em;
 	letter-spacing: .5px;
 }
@@ -67,7 +67,7 @@ nav a {
 	text-decoration: none;
 	color: #13ACB8;
 	/*background-color: #0079FF;*/
-	font-family: 'ClarendonLight', cursive;
+	font-family: ClarendonLight, comicsans;
 }
 
 ul {
