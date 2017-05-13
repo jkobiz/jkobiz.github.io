@@ -1,0 +1,194 @@
+@font-face {
+	font-family: Foco;
+	src:url("../fonts/Foco/focolight.ttf");
+}
+
+@font-face {
+	font-family: ClarendonLight;
+	src:url("../fonts/Clarendon/clarendonbtlight.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+@font-face {
+	font-family: ClarendonHeavy;
+	src:url("../fonts/Clarendon/clarendonbtheavy.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header{
+
+
+}
+
+body {
+	font-family: Foco, "sans serif";
+	font-size: 16px; /*1em = 16px*/
+	color: #414042;
+}
+
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: ClarendonHeavy, serif;
+	letter-spacing: .5px;
+}
+
+p{
+	text-align: center;
+	padding:10px;
+}	
+
+h1 {
+	color: #FFFFFF;
+	font-family: ClarendonLight, serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h2 {
+	color: #FFFFFF;
+	background-color: #13ACB8;
+	font-family: ClarendonLight, serif;
+	font-size: 1.25em;
+	/*letter-spacing: .5px;*/
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: normal
+}
+ 
+h4{
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+nav a {
+	text-decoration: none;
+	color: #13ACB8;
+	/*background-color: #0079FF;*/
+	font-family: ClarendonLight, serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+	color: #414042;
+}
+
+hr{
+	border:none;
+	height:1px;
+	background-color: #13ACB8;
+	width: 65em;
+	margin: 1em auto;
+}
+
+.cta {
+	text-decoration: none;
+	font-family: Foco, "sans serif";
+	color: #FFFFFF;
+	background-color: #0079FF;
+	font-size: .75em;
+	text-transform: uppercase;
+	padding: 5px;
+
+}
+
+#intro {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+
+	background-image: url("../images/loftbuilding.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1000px;
+	letter-spacing: .5px;
+}
+
+#capabilities {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+
+	text-align: center;
+}
+
+#work {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+
+	background-repeat: no-repeat;
+	background-size:cover;
+	color: #0079FF;
+	height: 700px;
+
+}
+
+
+#process {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+
+	background-image: url("../images/fordtruck.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 500px;
+	width: 700px;
+	text-align: center;
+}
+
+#contact {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+	background-image: url("../images/eaglemural.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 600px;
+}
+
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+
+	
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+
+}
