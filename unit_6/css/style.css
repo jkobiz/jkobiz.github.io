@@ -21,11 +21,12 @@
 	box-sizing:border-box;
 }
 
-header{
+#intro{
 	background-image: url("../images/loftbuilding.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 1200px;
+	background-position: center;
 }
 
 body {
@@ -45,9 +46,8 @@ a {
 nav {
 	text-decoration: none;
 	color:#13ACB8;
-/*	font-family: ClarendonHeavy, serif;*/
-	float: left;
-	padding-left: 1100px;
+	/*	font-family: ClarendonHeavy, serif;*/
+	float: right;
 }
 
 nav a {
@@ -60,8 +60,15 @@ nav a {
 	font-size: 18px;
 
 }
-
-
+.logo {
+	float:left;
+	width:10em;
+}
+.graphic {
+	float:right;
+	width: 3em;
+	margin-left: 2em;
+}
 p {
 	text-align: center;
 	padding-top:40px;
@@ -112,24 +119,33 @@ h4{
 ul{
   	list-style-type: none;
   	text-align: center;
-	padding-top: 5px;
- 	 padding-bottom:5px;
-  
+  	max-width: 80em;
+  	margin: auto;
 }
 
 li {
 	color: #414042;
-	line-height: 40px;
+	/* line-height: 40px; */
+	width: 25%;
+	float: left;
+	margin-top: 3em;
 }
 
-div {
-	width: 650px;
+#projects div {
 	padding-top: 30px;
 	text-align: center;
 	padding-bottom: 15px;
-	margin-bottom: 200px;
+	height: 100%;
+	width: 50%;
+	background: url(../images/thework_wall.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
 }
-
+#projects img {
+	width:50%;
+	float:left;
+}
 .projectbutton {
 	text-decoration: none;
 	font-family: Foco, "sans serif";
@@ -149,19 +165,11 @@ div {
 
 #capabilities {
 	text-align: center;
-	height: 300px;
 }
 
 #work {
-	background-image: url("../images/thework_wall.jpg");
-	background-repeat: no-repeat;
-	/*background-size:cover;*/
-	color: #0079FF;
-	float:left;
 	text-align: center;
-	width: 650px;
 	margin-top: 50px;
-
 }
 
 #theworkheadline {
@@ -223,9 +231,7 @@ div {
 
 }
 
-#projects {
-	float: right;
-}
+#projects {height: 50em;overflow: hidden;}
 
 #specialtyareas {
   	border-top: solid #13ACB8 1px;
