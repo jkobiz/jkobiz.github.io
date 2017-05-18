@@ -1,0 +1,298 @@
+@font-face {
+	font-family: Foco;
+	src:url("../fonts/Foco/focolight.ttf");
+}
+
+@font-face {
+	font-family: ClarendonLight;
+	src:url("../fonts/Clarendon/clarendonbtlight.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+@font-face {
+	font-family: ClarendonHeavy;
+	src:url("../fonts/Clarendon/clarendonbtheavy.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header{
+	background-image: url("../images/loftbuilding.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1200px;
+}
+
+body {
+	font-family: Foco, "sans serif";
+	font-size: 16px; /*1em = 16px*/
+	color: #414042;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: ClarendonLight, serif;
+	padding-left: 20px;
+
+}
+
+nav {
+	text-decoration: none;
+	color:#13ACB8;
+/*	font-family: ClarendonHeavy, serif;*/
+	float: left;
+	padding-left: 1100px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #13ACB8;
+	display: inline-block;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+
+}
+
+
+p {
+	text-align: center;
+	padding-top:40px;
+  	padding-bottom:25px;
+  	color: #414042;
+}	
+
+h1 {
+	display: inline-block;
+	width: 350px;
+	line-height: 1.5em;
+	color: #FFFFFF;
+	font-family: ClarendonLight, serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h2 {
+	color: #FFFFFF;
+	background-color: #13ACB8;
+	font-family: ClarendonLight, serif;
+/*	margin-top: 25px;*/
+	font-size: 1.85em;
+	padding-top: 35px;
+  	padding-bottom: 10px;
+}
+
+h3 {
+	
+	color: #414042;
+	font-size: 1.50em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+
+}
+ 
+h4{
+	color: #414042;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+ul{
+  	list-style-type: none;
+  	text-align: center;
+	padding-top: 5px;
+ 	 padding-bottom:5px;
+  
+}
+
+li {
+	color: #414042;
+	line-height: 40px;
+}
+
+div {
+	width: 650px;
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 15px;
+	margin-bottom: 200px;
+}
+
+.projectbutton {
+	text-decoration: none;
+	font-family: Foco, "sans serif";
+	color: #FFFFFF;
+	background-color: #0079FF;
+	font-size: .75em;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin-left: 20px;
+
+}
+
+#intro {
+	padding-top: 475px;
+	text-align: center;
+}
+
+#capabilities {
+	text-align: center;
+	height: 300px;
+}
+
+#work {
+	background-image: url("../images/thework_wall.jpg");
+	background-repeat: no-repeat;
+	/*background-size:cover;*/
+	color: #0079FF;
+	float:left;
+	text-align: center;
+	width: 650px;
+	margin-top: 50px;
+
+}
+
+#theworkheadline {
+	color: #0079FF;
+	font-family: ClarendonLight, serif;
+	font-size: 1.85em;
+	padding: 10px;
+	margin-top: 175px;
+	border-bottom: solid #414042 1px;
+    	padding-top: 20px;
+     	padding-bottom: 20px;
+     	padding-left: 20px;
+      	display: inline-block;
+      	margin-left: 10px;
+      	margin-bottom: 10px;
+
+}
+
+#howwework {
+	background-image: url("../images/fordtruck.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 650px;
+/*	width: 1280px;*/
+	text-align: center;
+/*	float: right;*/
+	clear:both;
+}
+
+#clientheadline {
+	color: #FFFFFF;
+	font-family: ClarendonLight, serif;
+	font-size: 1.85em;
+	padding-top: 135px;
+	padding-left: 20px;
+	text-align: left;
+
+}
+#contact {
+	background-image: url("../images/eaglemural.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	text-align: left;
+	color: #FFFFFF;
+	padding-left: 40px;
+}
+
+#mark {
+	float: right;
+	padding-top: 25px;
+	padding-right: 35px;
+}
+
+#logo {
+	float: left;
+	padding-top: 25px;
+	padding-left: 35px;
+
+}
+
+#projects {
+	float: right;
+}
+
+#specialtyareas {
+  	border-top: solid #13ACB8 1px;
+    	padding-top: 20px;
+     	padding-bottom: 20px;
+  	border-bottom: solid #13ACB8 1px;
+    	padding-top: 20px;
+     	padding-bottom: 20px;
+      	display: inline-block;
+	width: 1200px;
+}
+
+#instagram {
+  	padding-left: 20px;
+	padding-top: 100px;
+  	float: left;
+
+}
+
+#footerleft {
+	padding-left: 20px;
+	padding-top: 68px;
+  	float: left;
+  	color: #414042;
+
+}
+
+#footermiddle {
+  width: 280px;
+  padding: 20px 0px 100px;
+  margin-left: 600px;
+  float: left;
+  line-height: 20px;
+  text-align: center;
+  color: #414042;
+	
+}
+
+#footerright {
+	padding-top: 130px;
+	padding-right: 20px;
+  	float: right;
+  	line-height: 10px;
+  	color: #414042;
+	
+}
+
+.columns {
+  width: 280px;
+  padding: 5px;
+  margin: 0 10px;
+  float: left;
+  line-height: 10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+ 	border-bottom: solid #13ACB8 20px;
+ 	clear: both;
+
+	
+}
