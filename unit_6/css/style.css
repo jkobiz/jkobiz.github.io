@@ -63,11 +63,16 @@ nav a {
 .logo {
 	float:left;
 	width:10em;
+	margin-top: 20px;
+	margin-left: 30px;
+
 }
 .graphic {
 	float:right;
 	width: 3em;
 	margin-left: 2em;
+	margin-top: 20px;
+	margin-right: 30px;
 }
 p {
 	text-align: center;
@@ -125,7 +130,6 @@ ul{
 
 li {
 	color: #414042;
-	/* line-height: 40px; */
 	width: 25%;
 	float: left;
 	margin-top: 3em;

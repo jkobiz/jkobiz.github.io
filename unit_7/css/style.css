@@ -1,0 +1,333 @@
+@font-face {
+	font-family: Foco;
+	src:url("../fonts/Foco/focolight.ttf");
+}
+
+@font-face {
+	font-family: ClarendonLight;
+	src:url("../fonts/Clarendon/clarendonbtlight.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+@font-face {
+	font-family: ClarendonHeavy;
+	src:url("../fonts/Clarendon/clarendonbtheavy.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Foco, "sans serif";
+	font-size: 16px; /*1em = 16px*/
+	color: #414042;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+p {
+	text-align: center;
+	padding-top:40px;
+  	padding-bottom:25px;
+  	color: #414042;
+}
+
+h1 {
+	display: inline-block;
+	width: 405px;
+	margin-top: 10px;
+	line-height: 1.55em;
+	color: #FFFFFF;
+	font-family: ClarendonLight, serif;
+	font-size: 1.85em;
+	text-align: center;
+}
+
+
+h2 {
+	color: #FFFFFF;
+	background-color: #13ACB8;
+	font-family: ClarendonLight, serif;
+	font-size: 1.85em;
+	padding-top: 35px;
+  	padding-bottom: 10px;
+  	text-align: center;
+}
+
+h3 {
+	
+	color: #414042;
+	font-size: 1.75em;
+	padding-bottom: 10px;
+
+}
+ 
+h4{
+	color: #414042;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+
+}	
+
+nav {
+	text-decoration: none;
+	float: right;
+}
+
+nav a {
+	font-family: ClarendonLight, serif;
+	text-decoration: none;
+	color: #13ACB8;
+	display: inline-block;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+
+}
+
+nav a:hover{
+	color: #414042;
+
+}
+
+#intro{
+	background-image: url("../images/loftbuilding.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1200px;
+	background-position: center;
+	padding-top: 475px;
+	text-align: center;
+}
+
+.logo {
+	float:left;
+	width:10em;
+	margin-top: 20px;
+	margin-left: 30px;
+
+}
+
+.graphic {
+	float:right;
+	width: 3em;
+	margin-left: 8em;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+.getstarted {
+	padding-left: 5px;
+	color: #414042;
+
+}
+
+ul{
+  	list-style-type: none;
+  	text-align: center;
+  	max-width: 70em;
+  	margin: auto;
+  	border-top: solid #13ACB8 1px;
+  		margin-top: 10px;
+  	border-bottom: solid #13ACB8 1px;
+  		padding-top: 20px;
+    	padding-bottom: 30px
+
+}
+
+li {
+	color: #414042;
+	width: 25%;
+	float: left;
+	margin-top: 1em;
+}
+
+#theworkheadline {
+	background-color: #0079FF;
+
+}
+
+#projects div {
+	padding-top: 15em;
+	text-align: center;
+	padding-bottom: 15px;
+	height: 100%;
+	width: 50%;
+	background: url(../images/thework_wall.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#projects img {
+	width:50%;
+	float:left;
+
+}
+.projectbutton {
+	text-decoration: none;
+	font-family: Foco, "sans serif";
+	color: #FFFFFF;
+	background-color: #0079FF;
+	font-size: .75em;
+	text-transform: uppercase;
+	padding: 10px 15px;
+
+}
+
+.worknav {
+	font-family: ClarendonLight, serif;
+	color: #414042;
+	font-size: .8em;
+}
+
+.process {
+	width: 761px;
+	text-align: left;
+	padding-top: 25px;
+	padding-left: 175px;
+	padding-right: 150px;
+	margin-top: 125px;
+	line-height: 1.75em;
+	float: left;
+	border-top: solid #13ACB8 1px;
+	border-bottom: solid #13ACB8 1px;
+
+}
+
+.testing{
+	float: right;
+	background-image: url("../images/fordtruck.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 50%;
+
+}
+
+.CTA{
+	font-family: Foco, "sans serif";
+	font-size: 18px; /*1em = 16px*/
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 50px;
+	line-height: 1.6em;
+	margin-top: 30px;
+
+}
+
+#email{
+	font-family: Foco, "sans serif";
+	font-size: 18px; /*1em = 16px*/
+	color: #FFFFFF;
+	text-align: left;
+	line-height: 1.6em;
+	border-top: solid #FFFFFF 1px;
+	border-bottom: solid #FFFFFF 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 235px;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+
+
+#capabilities {
+	text-align: center;
+}
+
+#work {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+#clientheadline {
+	color: #FFFFFF;
+	background-color: #414042;
+	font-family: ClarendonLight, serif;
+	font-size: 1.85em;
+	text-align: center;
+
+}
+
+#contact {
+	background-image: url("../images/eaglemural.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+#projects {
+	height: 50em;overflow: hidden;
+
+}
+
+#specialtyareas {
+  	border-top: solid #13ACB8 1px;
+    	padding-top: 20px;
+     	padding-bottom: 20px;
+  	border-bottom: solid #13ACB8 1px;
+    	padding-top: 20px;
+     	padding-bottom: 20px;
+      	display: inline-block;
+	width: 1200px;
+
+}
+
+footer{
+ 	border-bottom: solid #13ACB8 20px;
+ 	margin-top: 20px
+	
+}
+
+footer p{
+	text-align: right;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 12px;
+
+}
+
+#footermiddle {
+  width: 300px;
+/*  padding: 20px 0px 100px;*/
+  margin-left: 600px;
+  float: left;
+  line-height: 1px;
+  text-align: center;
+  color: #414042;
+	
+}
+
+.instagram{
+	display: inline;
+	padding-left: 15px;
+	margin-top: 15px;
+	float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
