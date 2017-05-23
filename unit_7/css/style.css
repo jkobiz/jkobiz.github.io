@@ -35,8 +35,8 @@ a {
 
 p {
 	text-align: center;
-	padding-top:40px;
-  	padding-bottom:25px;
+	padding-top:45px;
+  	padding-bottom:53px;
   	color: #414042;
 }
 
@@ -54,7 +54,7 @@ h1 {
 
 h2 {
 	color: #FFFFFF;
-	background-color: #13ACB8;
+	background-color: #13BAB8;
 	font-family: ClarendonLight, serif;
 	font-size: 1.85em;
 	padding-top: 35px;
@@ -137,10 +137,10 @@ ul{
   	text-align: center;
   	max-width: 70em;
   	margin: auto;
-  	border-top: solid #13ACB8 1px;
+  	border-top: solid #13BAB8 1px;
   		margin-top: 10px;
-  	border-bottom: solid #13ACB8 1px;
-  		padding-top: 20px;
+  	border-bottom: solid #13BAB8 1px;
+  		padding-top: 6px;
     	padding-bottom: 30px
 
 }
@@ -149,11 +149,11 @@ li {
 	color: #414042;
 	width: 25%;
 	float: left;
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 #theworkheadline {
-	background-color: #0079FF;
+	background-color: #0079BB;
 
 }
 
@@ -178,7 +178,7 @@ li {
 	text-decoration: none;
 	font-family: Foco, "sans serif";
 	color: #FFFFFF;
-	background-color: #0079FF;
+	background-color: #0079BB;
 	font-size: .75em;
 	text-transform: uppercase;
 	padding: 10px 15px;
@@ -192,7 +192,7 @@ li {
 }
 
 .process {
-	width: 761px;
+	width: 694px;
 	text-align: left;
 	padding-top: 25px;
 	padding-left: 175px;
@@ -205,13 +205,13 @@ li {
 
 }
 
-.testing{
+.truckpic{
 	float: right;
 	background-image: url("../images/fordtruck.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
-	width: 50%;
+	width: 694px;
 
 }
 
@@ -249,7 +249,7 @@ li {
 
 #work {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 65px;
 }
 
 
@@ -291,35 +291,40 @@ li {
 }
 
 footer{
- 	border-bottom: solid #13ACB8 20px;
- 	margin-top: 20px
+ 	border-bottom: solid #13BAB8 20px;
+ 	padding-top: 5px;
 	
 }
 
 footer p{
-	text-align: right;
 	margin-right: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 	font-size: 12px;
+	float: right;
+	padding-top: 109px;
 
 }
 
 #footermiddle {
-  width: 300px;
-/*  padding: 20px 0px 100px;*/
-  margin-left: 600px;
-  float: left;
-  line-height: 1px;
-  text-align: center;
-  color: #414042;
+	width: 627px;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 5px;
+ 	color: #414042;
+  	text-align: center;
+  	display: inline-block;
 	
 }
 
+
 .instagram{
-	display: inline;
+	width: 627px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 	padding-left: 15px;
-	margin-top: 15px;
 	float: left;
+	padding-top: 97px;
 }
 
 .clearfix:after {
