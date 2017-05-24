@@ -1,0 +1,66 @@
+@font-face {
+	font-family: Foco;
+	src:url("../fonts/Foco/focolight.ttf");
+}
+
+@font-face {
+	font-family: ClarendonLight;
+	src:url("../fonts/Clarendon/clarendonbtlight.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+@font-face {
+	font-family: ClarendonHeavy;
+	src:url("../fonts/Clarendon/clarendonbtheavy.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Foco, "sans serif";
+	font-size: 16px; /*1em = 16px*/
+	color: #414042;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/loftbuilding.jpg");
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.inner {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	float: left;
+
+}
+
+nav a {
+	font-family: ClarendonLight, serif;
+	text-decoration: none;
+	color: #13ACB8;
+	font-size: 18px;
+
+}
+
+.getstarted {
+	padding-left: 5px;
+	color: #414042;
+
+}
