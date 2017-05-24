@@ -1,0 +1,68 @@
+@font-face {
+	font-family: Foco;
+	src:url("../fonts/Foco/focolight.ttf");
+}
+
+@font-face {
+	font-family: ClarendonLight;
+	src:url("../fonts/Clarendon/clarendonbtlight.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+@font-face {
+	font-family: ClarendonHeavy;
+	src:url("../fonts/Clarendon/clarendonbtheavy.ttf");
+	/*http://www.font-face.com/#green_content*/
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Foco, "sans serif";
+	font-size: 16px; /*1em = 16px*/
+	color: #414042;
+}
+
+h2 {
+	color: #FFFFFF;
+	background-color: #13BAB8;
+	font-family: ClarendonLight, serif;
+	font-size: 1.85em;
+	padding-top: 35px;
+  	padding-bottom: 10px;
+  	text-align: center;
+}
+
+.two-columns {
+	max-width: 1024px;
+}
+
+
+.column-one {
+		width:50%;
+		float: left;
+		text-align: left;
+		padding: 25px 50px;
+		margin-top: 60px;
+		line-height: 1.75em;
+		border-top: solid #13ACB8 1px;
+		border-bottom: solid #13ACB8 1px;
+}
+
+.column-two {
+		width:50%;
+		float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
