@@ -36,17 +36,36 @@ header {
 	background-repeat: no-repeat;
 }
 
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
 .inner {
 /*	width: 100%;
 	max-width: 1024px;*/
 	margin: 0 auto;
 	float: left;
 	margin-top: 1.5em;
+	width: 100vw;
+}
+
+.group {
+	background-image: url("../images/introshape.png");
+	position: relative;
+/*	background-size: cover;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 49%;
+	text-align: center;
+	top: 100px;
+	height: 780px;
 }
 
 nav {
 	float: left;
-	margin-left: 50em;
+	margin-left: 32em;
+	margin-right: 4.5em;
+	color: #13ACB8;
 }
 
 nav a {
@@ -56,7 +75,6 @@ nav a {
 	font-size: 1.15em;
 	padding-left: .5em;
 	padding-right: .5em;
-/*	display: inline-block;*/
 }
 
 nav a:hover{
@@ -70,7 +88,7 @@ nav a:hover{
 }
 
 .mainmark {
-	float: right;
+	float: left;
 	width: 3em;
 	margin-right: 1.75em;
 }
@@ -90,12 +108,12 @@ nav a:hover{
 
 h1 {
 	display: inline-block;
-	width: 40%;
-	margin-top: 4em;
+	width: 28%;
+	margin-top: 7.5em;
 	line-height: 1.55em;
 	color: #414042;
 	font-family: ClarendonLight, serif;
-	font-size: 1.85em;
+	font-size: 1.55em;
 	text-align: center;
 }
 
@@ -135,8 +153,8 @@ ul{
   	list-style-type: none;
   	text-align: center;
   	margin: auto;
-  	margin-left: 10em;
-  	margin-right: 10em;
+  	margin-left: 15em;
+  	margin-right: 15em;
   	margin-bottom: 4em;
     padding-bottom: 2em;
   	border-top: solid #13BAB8 .01em;
@@ -150,6 +168,10 @@ li {
 	margin-top: 2em;
 }
 
+img {
+	max-width: 100%;
+}
+
 .capabilities {
 	text-align: center;
 }
@@ -161,6 +183,10 @@ li {
 
 .thework {
 
+}
+
+.thework-column-two img {
+	width:100%;
 }
 
 .theworkheadline {
@@ -181,11 +207,15 @@ li {
 	background: url("../images/wall.jpg");
 	background-repeat:no-repeat;
 	background-size: cover;
+	text-align: center;
+	height: 900px;
 }
 
 .thework-column-two {
 	float: left;
 	width: 50%;
+	height: 900px;
+	overflow: hidden;
 }
 
 .projectbutton {
@@ -196,7 +226,7 @@ li {
 	font-size: .75em;
 	text-transform: uppercase;
 	padding: 1em;
-	margin-left: 37em;
+	/*margin-left: 37em;*/
 	text-align: center;
 }
 
@@ -227,6 +257,7 @@ li {
 .column-two {
 		float: left;
 		width:50%;
+		height: 461px;
 }
 
 
@@ -234,8 +265,7 @@ li {
 	background-image: url("../images/eagle.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	height: 385px;
+	height: 450px;
 	text-align: left;
 	color: #FFFFFF;
 }
@@ -292,6 +322,7 @@ li {
 	text-align: center;
 	width: 33.3333%;
 	float: left;
+	height
 }
 
 .footer-column-two img {
