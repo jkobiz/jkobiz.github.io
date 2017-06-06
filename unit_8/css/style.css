@@ -37,7 +37,7 @@ header {
 }
 
 .wrapper {
-	max-width: 1400px;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 .inner {
@@ -57,14 +57,15 @@ header {
 	background-repeat: no-repeat;
 	background-size: 49%;
 	text-align: center;
-	top: 100px;
-	height: 780px;
+	top: 18em;
+	height: 47em;
+
 }
 
 nav {
 	float: left;
-	margin-left: 32em;
-	margin-right: 4.5em;
+	margin-left: 55em;
+/*	margin-right: 4.5em;*/
 	color: #13ACB8;
 }
 
@@ -88,7 +89,7 @@ nav a:hover{
 }
 
 .mainmark {
-	float: left;
+	float: right;
 	width: 3em;
 	margin-right: 1.75em;
 }
@@ -109,11 +110,11 @@ nav a:hover{
 h1 {
 	display: inline-block;
 	width: 28%;
-	margin-top: 7.5em;
-	line-height: 1.55em;
+	margin-top: 6.15em;
+	line-height: 1.8em;
 	color: #414042;
 	font-family: ClarendonLight, serif;
-	font-size: 1.55em;
+	font-size: 1.7em;
 	text-align: center;
 }
 
@@ -248,17 +249,24 @@ img {
 		float: left;
 		text-align: left;
 		padding: 3em 3em;
-		margin-top: 7.75em;
+		margin-top: 8.25em;
 		line-height: 1.75em;
-		border-top: solid #13ACB8 .01em;
-		border-bottom: solid #13ACB8 .01em;
 }
 
+.column-one p{
+	border-top: solid #13ACB8 .01em;
+    border-bottom: solid #13ACB8 .01em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 4em;
+    padding-left: 4em;
+}
 .column-two {
 		float: left;
 		width:50%;
-		height: 461px;
-}
+		height: 580px;
+		overflow: hidden;
+}		
 
 
 .contact {
@@ -308,21 +316,30 @@ img {
 }
 
 .footer-column-one {
-	margin-top: 7em;
+	margin-top: 8em;
 	padding-left: 1em;
-	width: 33.3333%;
+	width: 4%;
 	float: left;
 }
 
 .footer-column-one img {
-	width: 2em;
+	width: 1.75em;
+}
+
+.Instagram-copy {
+	float:left;
+	margin-top: 8.5em;
+	width: 25%;
+}
+.Instagram-copy a{
+	color: #414042;
+
 }
 
 .footer-column-two {
 	text-align: center;
-	width: 33.3333%;
+	width: 41%;
 	float: left;
-	height
 }
 
 .footer-column-two img {
@@ -333,9 +350,17 @@ img {
 
 .footer-column-three {
 	text-align: right;
-	border-bottom: solid #13BAB8 2em;
-	width: 100%;
+	/*border-bottom: solid #13BAB8 2em;*/
+	width: 25%;
 	float: right;
+	margin-top: 8.5em;
+}
+
+.color-bar {
+	height: 30px;
+	width: 100%;
+	background-color:#13BAB8;
+	margin-top: .5em;
 }
 
 .footer-column-three p{
@@ -351,3 +376,187 @@ img {
     clear: both;
     height: 0;
 }
+
+@media only screen and (min-width: 1920px) {
+	#wrapper {
+		width: 1920px;
+	}
+}
+
+@media only screen and (max-width: 1785px) {
+	header {
+		height: 90vh;
+	}
+	.group {
+		background-size: 55%;
+		top:16em;
+	}
+	nav {
+		margin-left: 45em;
+	}
+	h1 {
+		width: 32%;
+		margin-top: 6em;
+	}
+	.column-one {
+		margin-top: 8em;
+	}
+	.column-two {
+		height: 560px;
+}	
+
+@media only screen and (max-width: 1697px) {
+	header {
+		height: 85vh;
+	}
+	.group {
+		background-size: 60%;
+		top:15em;
+	}
+	nav {
+	margin-left: 40em;
+	}
+	h1 {
+		width: 32%;
+		margin-top: 6em;
+	}
+	.group {
+		background-size: 55%;
+	}
+	.column-one {
+		margin-top: 5em;
+	}
+	.column-two {
+		height: 494px;
+}
+
+@media only screen and (max-width: 1575px) {
+	header {
+		height: 80vh;
+	}
+	.group {
+		background-size: 60%;
+		top:14em;
+	}
+	nav {
+		margin-left: 25em;
+	}
+	h1 {
+		width: 34%;
+		margin-top: 6em;
+	}
+	.column-one {
+		margin-top: 5em;
+	}
+	.column-two {
+		height: 494px;
+}
+@media only screen and (max-width: 1500px) {
+	header {
+		height: 75vh;
+	}
+	.group {
+		background-size: 60%;
+		top:12em;
+	}
+
+	nav {
+		margin-left: 25em;
+	}
+	.group {
+		background-size: 65%;
+	}
+	h1 {
+		width: 39%;
+		margin-top: 6em;
+	}
+	.thework-column-one{
+		height: 868px;
+	}
+	.thework-column-two {
+		height: 868px;
+	}
+	.worknav {
+		padding-top: 23em;
+	}
+	.theworkheadline {
+		margin-left: 7em;
+		margin-right: 7em;
+	}
+	.column-one {
+		margin-top: 3em;
+	}
+	.column-two {
+		height: 442px;
+}
+
+@media only screen and (max-width: 1346px) {
+	header {
+		height: 68vh;
+	}
+	.group {
+		background-size: 60%;
+		top:10em;
+	}
+	nav {
+		margin-left: 20em;
+	}
+	.group {
+		background-size: 64%;
+	}
+	h1 {
+		width: 40%;
+		margin-top: 6em;
+	}
+	ul{
+ 		margin-left: 7em;
+  		margin-right: 7em;
+  	}
+	.thework-column-one{
+		height: 750px;
+	}
+	.thework-column-two {
+		height: 750px;
+	}
+	.worknav {
+		padding-top: 14em;
+	}
+	.theworkheadline {
+		margin-left: 7em;
+		margin-right: 7em;
+	}
+	.column-one {
+		margin-top: 1.75em;
+	}
+	.column-two {
+		height: 415px;
+}
+
+@media only screen and (max-width: 1286px) {
+	header {
+		height: 65vh;
+	}
+	.group {
+		background-size: 65%;
+		top:9em;
+	}
+	h1 {
+		width: 44%;
+		margin-top: 6em;
+	}
+
+	.column-one {
+		width:100%;
+		padding: 3em 3em;
+	}
+	.column-one p{
+    	padding-right: 6.25em;
+    	padding-left: 6.25em;
+}
+	.column-two {
+		display: none;
+		float: none;
+	}
+
+}
+
