@@ -1128,18 +1128,18 @@ img {
 
 @media only screen and (max-width: 414px) {
 	header {
-		height: 102vh;
-		background-position: bottom;
+		height: 100vh;
+   		background-position-x: 24%;
 	}
 
 	.group {
-		background-size: 100%;
-		top: 2.5em;
+		background-size: 105%;
+		top: 2.25em;
 	}
 
 	h1 {
-		width: 65%;
-		margin-top: 1.75em;
+		width: 70%;
+		margin-top: 1.8em;
 		font-size: 1.05em;
 	}
 
@@ -1180,7 +1180,7 @@ img {
 	}
 
 	.footer-column-one {
-		width: 30%;
+		width: 29%;
 		margin-top: 7em;
 	}
 
@@ -1202,10 +1202,26 @@ img {
 
 	.footer-column-three p{
 		font-size: 11px;
-
+	}
 }
 
 @media only screen and (max-width: 375px) {
+	header {
+		height: 100vh;
+   		background-position-x: 26%;
+	}
+
+	.group {
+		background-size: 107%;
+		top: 1.75em;
+	}
+
+	h1 {
+		width: 74%;
+		margin-top: 1.8em;
+		font-size: 1.05em;
+	}
+
 	.contact {
 		width: 100%;
 		height: 41vh;
@@ -1235,15 +1251,21 @@ img {
 		font-size: 14.5px;
 	}
 
+	header {
+		height: 102vh;
+   		background-position-x: 24%;
+	}
+
 	.group {
 		background-size: 105%;
-		top: 1em;
+		top: .75em;
 	}
 
 	h1 {
 		width: 70%;
 		margin-top: 1.75em;
 		font-size: 1em;
+		line-height: 1.7em;
 	}
 
 	h2 {
@@ -1282,7 +1304,7 @@ img {
 	}
 
 	.footer-column-one {
-		width: 30%;
+		width: 29%;
 		margin-top: 7.25em;
 	}
 
