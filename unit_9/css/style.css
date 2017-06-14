@@ -16,7 +16,6 @@
 }*/
 @import url('https://fonts.googleapis.com/css?family=Bitter:400');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
 
 *{
 	margin:0;
@@ -44,8 +43,6 @@ header {
 	margin: 0 auto;
 }
 .inner {
-/*	width: 100%;
-	max-width: 1024px;*/
 	margin: 0 auto;
 	float: left;
 	margin-top: 1.5em;
@@ -55,7 +52,6 @@ header {
 .group {
 	background-image: url("../images/introshape.png");
 	position: relative;
-/*	background-size: cover;*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 48%;
@@ -193,9 +189,6 @@ img {
 .thework-wrapper{
 	width:90%;
 	margin:auto;
-/*	margin-left: 15em;
-  	margin-right: 15em;*/
-
 }
 
 .thework-projects img {
@@ -215,31 +208,6 @@ img {
 .thework-projects a{
 	padding-left: 2%;
 
-}
-
-/*.projectbutton {
-	text-decoration: none;
-	font-family: 'Roboto', "sans serif";
-	color: #FFFFFF;
-	background-color: #0079BB;
-	font-size: .75em;
-	text-transform: uppercase;
-	padding: 1em;
-	margin-left: 37em;
-	text-align: center;
-}
-
-.worknav {
-	font-family: 'Bitter', serif;
-	color: #414042;
-	font-size: .8em;
-	text-align: center;
-	padding-top: 25em;
-	margin-bottom: 1em;
-}*/
-
-.how-we-work {
-/*	background: yellow;*/
 }
 
 .column-one {
@@ -284,7 +252,7 @@ img {
 	padding-left: 1.5em;
 }
 
-.CTA{'
+.CTA {
 	font-family: 'Roboto', "sans serif";
 	font-size: 1.25em; /*1em = 16px*/
 	color: #FFFFFF;
@@ -314,7 +282,7 @@ img {
 }
 
 .footer-column-one {
-	margin-top: 8em;
+	margin-top: 7.85em;
 	padding-left: 1em;
 	width: 3%;
 	float: left;
@@ -338,6 +306,7 @@ img {
 	text-align: center;
 	width: 42%;
 	float: left;
+	margin: 0 auto;
 }
 
 .footer-column-two img {
@@ -348,7 +317,6 @@ img {
 
 .footer-column-three {
 	text-align: right;
-	/*border-bottom: solid #13BAB8 2em;*/
 	width: 25%;
 	float: right;
 	margin-top: 8.5em;
@@ -362,7 +330,7 @@ img {
 }
 
 .footer-column-three p{
-	padding-bottom: .5em;
+/*	padding-bottom: .5em;*/
 	padding-right: 1em;
 }
 
@@ -438,6 +406,7 @@ img {
 
 	.column-two {
 		height: 494px;
+	}
 }
 
 @media only screen and (max-width: 1644px) {
@@ -468,10 +437,10 @@ img {
 	}
 	.footer-column-one {
 		width: 3.5%;
-
+	}
 }
 
-@media only screen and (max-width: 1598px) {
+@media only screen and (max-width: 1572px) {
 	header {
 		height: 87vh;
 	}
@@ -490,6 +459,11 @@ img {
 		margin-top: 6em;
 	}
 
+	ul{
+ 		margin-left: 15em;
+  		margin-right: 15em;
+  	}
+
 	.theworkheadline {
 		margin-left: 7em;
 		margin-right: 7em;
@@ -501,10 +475,10 @@ img {
 
 	.column-two {
 		height: 483px;
-}
+	}
 	.footer-column-one {
 		width: 3.75%;
-
+	}
 }
 
 @media only screen and (max-width: 1455px) {
@@ -541,6 +515,7 @@ img {
 
 	.column-two {
 		height: 438px;
+	}
 }
 
 @media only screen and (max-width: 1408px) {
@@ -586,6 +561,7 @@ img {
     	padding-right: 6.25em;
     	padding-left: 6.25em;
 	}
+
 	.column-two {
 		display: none;
 		float: none;
@@ -615,7 +591,7 @@ img {
 
 	.footer-column-one {
 		width: 5%;
-
+	}
 }
 
 @media only screen and (max-width: 1300px) {
@@ -644,6 +620,11 @@ img {
 		margin-top: .3em;
 	}
 
+	.email{
+		width: 21%;
+	}
+}
+
 
 @media only screen and (max-width: 1213px) {
 	header {
@@ -656,7 +637,9 @@ img {
 	}
 
 	nav {
-		margin-left: 21em;
+		margin-left: 19em;
+		position: relative;
+   		z-index: 10;
 	}
 
 	h1 {
@@ -664,17 +647,18 @@ img {
 		margin-top: 7.5em;
 		font-size: 1.5em;
 	}
-	h2 {
-	font-size: 1.5em;
 
+	h2 {
+		font-size: 1.5em;
 	}
 
-nav a {
-	font-size: 1em;
+	nav a {
+		font-size: 1em;
+	}
 
 }
 
-@media only screen and (max-width: 1177px) {
+@media only screen and (max-width: 1172px) {
 	.group {
 		background-size: 58%;
 		top: 1em;
@@ -685,12 +669,24 @@ nav a {
 		margin-top: 7.5em;
 		font-size: 1.5em;
 	}
+
 	.column-one {
 		width:100%;
 		padding: 5em 7em;
 		margin-top: .3em;
+	}
 }
 
+@media only screen and (max-width: 1157px) {
+	nav {
+		margin-left: 19em;
+	}
+
+	ul{
+ 		margin-left: 3em;
+  		margin-right: 3em;
+  	}
+ }
 
 @media only screen and (max-width: 1131px) {
 	header {
@@ -714,7 +710,9 @@ nav a {
 
 	.mainmark {
 		display:none;
+	}
 }
+
 
 @media only screen and (max-width: 1094px) {
 	header {
@@ -722,7 +720,7 @@ nav a {
 	}
 
 	nav {
-		margin-left: 20em;
+		margin-left: 17.75em;
 	}
 
 	.group {
@@ -742,20 +740,21 @@ nav a {
 		margin-left: 1.75em;
 	}
 
-	ul{
- 		margin-left: 4em;
-  		margin-right: 4em;
-  	}
-
   	.column-one {
 		width:100%;
 		padding: 4em 3em;
 		margin-top: .3em;
 	}
+
+	.contact {
+		width: 100%;
+		height: 40vh;
+		position: relative;
+	}
 }
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1072px) {
 	header {
 		height: 51vh;
 	}
@@ -775,11 +774,6 @@ nav a {
 		font-size: 1.45em;
 	}
 
-	.contact {
-		width: 100%;
-		height: 40vh;
-		position: relative;
-	}
 }
 
 
@@ -789,29 +783,46 @@ nav a {
 	}
 
 	header {
-	height: 65vh;
-	background-position: bottom;
+		height: 65vh;
+		background-position: bottom;
 	}
 
 	.mainlogo {
-		float: left;
-		width: 12em;
+		width: 11em;
 		margin-left: 28em;
+		float: none;
+		display: block;
+		margin: 0 auto;
 	}
 
 	nav {
 		margin-left: 19em;
-		margin-top: 5em;
+		margin-top: 8em;
+		margin: 2em auto;
+		float: none;
+		text-align: center;
+		position: relative;
+   		z-index: 10;
 	}
+
+	nav a {
+		display: block;
+		padding-top: .25em;
+		padding-bottom: .75em;
+	}
+
+	nav a:hover{
+		color: #FFFFFF;
+}
 
 	.group {
 		background-size: 63%;
-		top: 4.25em;
+		top: 7em;
 	}
 
 	h1 {
 		width: 42%;
-		margin-top: 4.5em;
+		margin-top: -.25em;
 		font-size: 1.45em;
 	}
 
@@ -825,17 +836,17 @@ nav a {
   	}
 
 	.thework-projects img {
-		width: 80%;
+		width: 70%;
 		padding-bottom: 2em;
 	}
 
 	.thework-projects {
 		padding: 1%;
 		margin: auto;
-		margin-left: 5.5em;
+		text-align:center;
 		float: left;
 		padding-top: 4em;
-	    padding-bottom: 6em;
+	    padding-bottom: 3em;
 	}
 
   	.column-one {
@@ -848,12 +859,23 @@ nav a {
 
 @media only screen and (max-width: 1000px) {
 	body{
-		font-size: 15.5px;
+		font-size: 15.25px;
 	}
 
 	header {
-	height: 65vh;
-	background-position: bottom;
+		height: 55vh;
+		background-position: bottom;
+	}
+
+	.group {
+		background-size: 60%;
+		top: 6em;
+	}
+
+	h1 {
+		width: 42%;
+		margin-top: -.25em;
+		font-size: 1.35em;
 	}
 
 	li {
@@ -871,4 +893,412 @@ nav a {
 	  	border-top: solid #13BAB8 .01em;
 	  	border-bottom: solid #13BAB8 .01em;
 	}
+
+	.contact {
+		width: 100%;
+		height: 35vh;
+		position: relative;
+	}
+
+	.clientheadline {
+		color: #FFFFFF;
+		font-family: 'Bitter', serif;
+		font-size: 1.85em;
+		padding-top: 4em;
+		padding-left: 1.5em;
+	}
+
+	.footer-column-one {
+		width: 6%;
+	}
+
 }
+
+@media only screen and (max-width: 900px) {
+	header {
+		height: 50vh;
+		background-position: bottom;
+	}
+
+	.group {
+		background-size: 58%;
+		top: 3em;
+	}
+
+	h1 {
+		width: 40%;
+		margin-top: 1.5em;
+		font-size: 1.15em;
+	}
+
+	nav {
+		margin-left: 19em;
+		margin-top: 8em;
+		margin: 2em auto;
+		float: none;
+		text-align: center;
+	}
+
+	nav a {
+		display: block;
+		padding-top: .25em;
+		padding-bottom: .55em;
+	}
+
+	ul {
+	  	list-style-type: none;
+	  	text-align: center;
+	  	margin: auto;
+	  	margin-left: 13em;
+	  	margin-right: 13em;
+	  	margin-bottom: 5em;
+	    padding-bottom: 2em;
+	  	border-top: solid #13BAB8 .01em;
+	  	border-bottom: solid #13BAB8 .01em;
+	}
+
+	.thework-projects img {
+		width: 80%;
+		padding-bottom: 2em;
+	}
+	.column-one {
+		width:100%;
+		padding: 5em;
+		margin-top: .3em;
+	}
+
+	.Instagram-copy {
+		display: none;
+
+	}
+
+	.footer-column-one {
+		width: 31%;
+		margin-top: 7em;
+	}
+
+	.footer-column-two {
+		font-size: 14px;
+	}
+
+	.footer-column-three {
+		margin-top: 7.55em;
+
+	}
+
+	.footer-column-three p{
+		font-size: 14px;
+	}
+
+}
+
+@media only screen and (max-width: 806px) {
+	header {
+		height: 58vh;
+		background-position: bottom;
+	}
+
+	.group {
+		background-size: 58%;
+		top: 2.5em;
+	}
+
+	h1 {
+		width: 35%;
+		margin-top: 1.5em;
+		
+		font-size: 1.15em;
+	}
+
+	.email{
+		width: 27%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.clientheadline {
+		padding-top: 2.25em;
+	}
+
+}
+
+@media only screen and (max-width: 737px) {
+	header {
+		height: 58vh;
+		background-position: bottom;
+/*		position: relative;
+		right: 1em;*/
+	}
+
+	.group {
+		background-size: 68%;
+		top: 2.5em;
+	}
+
+	h1 {
+		width: 45%;
+		margin-top: 1.5em;
+		font-size: 1.15em;
+	}
+
+	ul {
+		line-height: 1.5em;
+	  	margin-left: 11em;
+	  	margin-right: 11em;
+	}
+
+	.capabilities p{
+		line-height: 1.5em;
+	}
+
+	 .column-one {
+		width:100%;
+		padding: 2em 2em;
+		margin-top: .3em;
+	}
+
+	.clientheadline {
+		font-size: 1.7em;
+		padding-top: 3em;
+		padding-left: 1.75em;
+	}
+
+	.CTA {
+		font-size: 1em; /*1em = 16px*/
+		padding-left: 3em;
+	}
+
+	.email{
+		width: 27%;
+	}
+
+	.contact {
+		width: 100%;
+		height: 30vh;
+		position: relative;
+	}
+
+@media only screen and (max-width: 620px) {
+	header {
+		height: 50vh;
+		background-position: bottom;
+	}
+
+	.group {
+		background-size: 80%;
+		top: 2.5em;
+	}
+
+	h1 {
+		width: 53%;
+		margin-top: 1.5em;
+		font-size: 1.15em;
+	}
+
+	.capabilities p{
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+	}
+
+	ul {
+		line-height: 1.5em;
+	  	margin-left: 8em;
+	  	margin-right: 8em;
+	}
+	.column-one {
+		width: 100%;
+		padding: 2em 1.5em;
+		margin-top: .3em;
+	}
+
+	.column-one p{
+    	padding-right: 3em;
+    	padding-left: 3em;
+	}
+
+	.email{
+		width: 31%;
+	}
+
+	.contact {
+		width: 100%;
+		height: 28vh;
+		position: relative;
+}
+
+@media only screen and (max-width: 414px) {
+	header {
+		height: 102vh;
+		background-position: bottom;
+	}
+
+	.group {
+		background-size: 100%;
+		top: 2.5em;
+	}
+
+	h1 {
+		width: 65%;
+		margin-top: 1.75em;
+		font-size: 1.05em;
+	}
+
+	.capabilities p{
+		margin-top: 3em;
+	}
+
+	ul {
+	  	margin-left: 4em;
+	  	margin-right: 4em;
+	}
+
+	.column-one p{
+    	padding-right: 1.25em;
+    	padding-left: 1.25em;
+	}
+
+	.contact {
+		width: 100%;
+		height: 39vh;
+		position: relative;
+	}
+
+	.clientheadline {
+		font-size: 1.45em;
+		padding-top: 2.25em;
+	}
+
+	.CTA {
+		font-size: 1em; /*1em = 16px*/
+		padding-left: 2.55em;
+	}
+	
+	.email{
+		width: 43%;
+		margin-left: 2.55em;
+		margin-top: 1.75em;
+	}
+
+	.footer-column-one {
+		width: 30%;
+		margin-top: 7em;
+	}
+
+	.footer-column-two {
+		font-size: 14px;
+	}
+	.footer-column-two img {
+		width: 2.25em;
+		padding-top: 3.5em;
+	}
+	.footer-column-two p{
+		font-size: 13px;
+	}
+
+	.footer-column-three {
+		margin-top: 7.9em;
+
+	}
+
+	.footer-column-three p{
+		font-size: 11px;
+
+}
+
+@media only screen and (max-width: 375px) {
+	.contact {
+		width: 100%;
+		height: 41vh;
+		position: relative;
+	}
+
+	.clientheadline {
+		font-size: 1.25em;
+		padding-top: 2.25em;
+	}
+
+	.CTA {
+		font-size: .95em; /*1em = 16px*/
+		padding-left: 2.2em;
+		margin-top:1.55em;
+	}
+	
+	.email{
+		width: 45%;
+		margin-left: 2.4em;
+		margin-top: 1.75em;
+		font-size: .95em;
+}
+
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 14.5px;
+	}
+
+	.group {
+		background-size: 105%;
+		top: 1em;
+	}
+
+	h1 {
+		width: 70%;
+		margin-top: 1.75em;
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	ul {
+	  	margin-left: 3em;
+	  	margin-right: 3em;
+	  	margin-bottom: 4em;
+	}
+
+	.column-one {
+		width: 100%;
+		padding: 2em 1.75em;
+		margin-top: .3em;
+	}
+
+	.contact {
+		width: 100%;
+		height: 43vh;
+		position: relative;
+	}
+
+	.CTA {
+		font-size: .9em; /*1em = 16px*/
+		padding-left: 2.5em;
+		margin-top:1.25em;
+	}
+	
+	.email{
+		width: 47%;
+		margin-left: 2.5em;
+		margin-top: 1.75em;
+		font-size: .9em;
+	}
+
+	.footer-column-one {
+		width: 30%;
+		margin-top: 7.25em;
+	}
+
+	.footer-column-two p{
+		font-size: 11.75px;
+	}
+
+	.footer-column-three {
+		margin-top: 8.35em;
+
+	}
+
+	.footer-column-three p{
+		font-size: 9px;
+
+}
+
+
+
