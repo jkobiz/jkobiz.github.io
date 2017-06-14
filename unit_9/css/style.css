@@ -79,6 +79,7 @@ nav a {
 
 nav a:hover{
 	color: #414042;
+	transition: color ease-in-out .5s;
 }
 
 .mainlogo {
@@ -1026,8 +1027,6 @@ img {
 	header {
 		height: 58vh;
 		background-position: bottom;
-/*		position: relative;
-		right: 1em;*/
 	}
 
 	.group {
