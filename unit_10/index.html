@@ -2,35 +2,61 @@
 <html>
 <head>
 	<title>Loft 212</title>
+
+	<style type="text/css">
+		@media only screen and (max-device-width:480px) {
+			#main-table {
+				width: 480px !important;
+			}
+			#loftimage {
+				width: 480px !important;
+			}
+/*			#border{
+				width: 80%;
+				padding: .5em 0 !important;
+			}
+			#headlinebox{
+				width: 100% !important;
+			}
+			#headline {
+				font-size: 1em !important;
+			}*/
+
+		}
+	</style>
 </head>
 
-<body>
-	<table cellspacing="0" width="600px">
-		<tr>
-			<td align="center">
-	          <img src="images/loft212logo.svg" style= "width: 150px;" alt= "Loft 212 logo"></td>
-		</tr>
+<body style="margin: 0;">
+<table border="0" cellpadding="0" cellspacing="0" width="0" align="center">
+	<tr>
+		<td align="center">
+			<table cellspacing="0" width="600px" id="main-table">
+				<tr style="line-height: 0">
+					<td align="center">
+			          <img src="images/loft212logo.svg" style= "width: 150px;" alt= "Loft 212 logo" id="logo"></td>
+				</tr>
 
-		<tr>
-			<td cellspacing="0" align="center">
-	          <img src="images/loftbuilding.jpg" style="width: 600px;" alt="Loft Building"></td>
-			</tr>
+				<tr style="line-height: 0">
+					<td cellspacing="0" align="center">
+			          <img src="images/loftbuilding.jpg" style="width: 600px; height:352px;" alt="Loft Building" id="loftimage"></td>
+					</tr>
 
-		<tr>
-			<td cellspacing="0" style="background:#13BAB8;line-height: 1.6em; padding: 1em 3em;" align= "center">
-				<h1 style="color: #ffffff; font-family: Times, serif; font-size: 21px;">We collaborate with clients to create beautiful brands and help businesses grow and thrive. Let’s get started.</h1>
+				<tr>
+					<td cellspacing="0" style="background:#13BAB8;line-height: 1.6em; padding: 1em 3em;" align= "center" id="headlinebox">
+						<h1 style="color: #ffffff; font-family: Times, serif; font-size: 21px;" id="headline">We collaborate with clients to create beautiful brands and help businesses grow and thrive. Let’s get started.</h1>
+				</td>
+				</tr>
+				<table cellspacing="0" style="width: 600px; border-bottom: 4px solid #13BAB8; font-family: Helvetica, Arial, sans-serif; padding: .5em 1em;" id="border">
+				<tr>
+					<td align="center"><a href="#" style="text-decoration: none; color: #414042;">what we do</a></td>
+				  	<td align="center"><a href="#" style="text-decoration: none; color: #414042;">the work</a></td>
+				   	<td align="center"><a href="#" style="text-decoration: none; color: #414042;">how we work</a></td>
+				   	<td align="center"><a href="#" style="text-decoration: none; color: #414042;">contact us</a></td>
+				</tr>
+				</table>
+			</table>
 		</td>
-		</tr>
-		<table cellspacing="0" style="width: 600px; border-bottom: 4px solid #13BAB8; font-family: Helvetica, Arial, sans-serif; padding: .5em 1em;">
-			<tr>
-				<td align="center"><a href="#" style="text-decoration: none; color: #414042;">what we do</a></td>
-		  		<td align="center"><a href="#" style="text-decoration: none; color: #414042;">the work</a></td>
-		   		<td align="center"><a href="#" style="text-decoration: none; color: #414042;">how we work</a></td>
-		   		<td align="center"><a href="#" style="text-decoration: none; color: #414042;">contact us</a></td>
-			</tr>
-		</table>
-
-	</table>
-
+	</tr>
+</table>
 </body>
 </html>
